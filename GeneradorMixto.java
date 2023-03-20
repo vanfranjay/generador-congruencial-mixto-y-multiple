@@ -103,7 +103,7 @@ public class GeneradorMixto {
 
     public static void main(String[] args) {
         // Crea la ventana y el panel
-        JFrame frame = new JFrame("Generador Mixto");
+        JFrame frame = new JFrame("Generador Congruencial Mixto y Múltiple");
         JPanel panel = new JPanel();
 
         // Crea los elementos para la entrada de datos
@@ -165,7 +165,7 @@ public class GeneradorMixto {
         // ");
         // panelEntrada.add(labelTextos, BorderLayout.SOUTH);
 
-        JLabel labelTexto = new JLabel("Generadores congruenciales mixtos: ");
+        JLabel labelTexto = new JLabel("Generadores congruenciales mixtos y múltiples: ");
         panelEntrada.add(labelTexto, BorderLayout.NORTH);
 
         // Crea un panel para los componentes de entrada de datos
